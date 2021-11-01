@@ -1,0 +1,149 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --hover-blue: hsl(245, 65%, 65%);
+  --button-shadow-blue: hsl(245, 75%, 85%);
+  --attr-blue: hsl(228, 45%, 44%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--pale-blue);
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: 'Red Hat Display', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.card {
+  margin: auto;
+  border-radius: 1rem;
+  background-color: var(--white);
+  width: 400px;
+}
+
+.top-img {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 20px;
+}
+
+.desc {
+  color: var(--desaturated-blue);
+  font-weight: 500;
+  width: 75%;
+  line-height: 1.5;
+  margin: auto;
+  text-align: center;
+}
+
+.plan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 30px auto;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 1rem;
+  width: 80%;
+  height: 85px;
+  padding: 5px 0;
+}
+
+.choose-plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.annual {
+  font-weight: 900;
+  color: var(--dark-blue);
+}
+
+.cost {
+  font-weight: 600;
+  color: var(--desaturated-blue);
+}
+
+.music-icon {
+  flex: 0 0 20%;
+  padding: 20px;
+}
+
+.change {
+  color: var(--bright-blue);
+  font-weight: 900;
+  float: right;
+  margin: 30px 20px 30px 30px;
+}
+
+.change:hover {
+  color: var(--hover-blue);
+}
+
+.proceed {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn1 {
+  border-radius: 0.5rem;
+  width: 80%;
+  background-color: var(--bright-blue);
+  height: 40px;
+  border: 0;
+  color: var(--white);
+  margin: 10px auto 20px;
+  padding: 10px;
+  font-weight: 600;
+  box-shadow: 0px 20px 25px -5px var(--button-shadow-blue);
+}
+
+.btn1:hover {
+  background-color: var(--hover-blue);
+  cursor: pointer;
+}
+
+.btn2 {
+  border-radius: 0.5rem;
+  width: 80%;
+  background-color: var(--white);
+  height: 40px;
+  border: 0;
+  color: var(--desaturated-blue);
+  margin: 10px auto 20px auto;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.btn2:hover {
+  color: var(--black);
+  cursor: pointer;
+}
+
+.attribution {
+  font-weight: lighter;
+  padding: 5px;
+}
