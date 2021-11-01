@@ -17,12 +17,6 @@
   box-sizing: border-box;
 }
 
-@media only screen and (max-width: 600px) {
-  .card {
-    height: 75%;
-  }
-}
-
 body {
   background-color: var(--pale-blue);
   background-image: url("images/pattern-background-desktop.svg");
