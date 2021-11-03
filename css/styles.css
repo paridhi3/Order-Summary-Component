@@ -17,26 +17,9 @@
   box-sizing: border-box;
 }
 
-@media (min-width: 1px) and (max-width: 480px) {
-  body {
-    background-image: url("images/pattern-background-mobile.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-color: #e0e8ff;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 4096px) {
-  body {
-    background-image: url("images/pattern-background-desktop.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-color: #e0e8ff;
-  }
-}
-
 body {
   background-color: var(--pale-blue);
+  background-image: url(images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   font-family: 'Red Hat Display', sans-serif;
